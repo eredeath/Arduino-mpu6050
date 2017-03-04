@@ -1,7 +1,7 @@
 Playing around with a 6DOF IMU (MPU-6050), Arduino, Python and OpenGL
 
-The Arduino Uno is sending pitch and roll data via bluetooth. A python script is receiving the data and displaying a little cube accordingly. The IMU data consists of gyro and accelerometer data, processed by a complementary filter.
 
-For more information please visit http://mattzz.no-ip.org/wiki/Projects/PlayingWithInertialMeasurementUnits
+MPU-6050 gyro and accel setup and read.
+Prints out to an LCD display X's when the gyro is at it's inital position in the x-y plane and arrows pointing the direction to bring it back to its inital position. 
 
-Test Change
+MPU-6050 setup Forked from https://github.com/mattzzw/Arduino-mpu6050
